@@ -1,0 +1,103 @@
+#appcontainer { 
+    background-color: #eeeeee;
+    width: 500px;
+    height: 500px;
+    margin: 100px auto ; 
+    box-shadow: 3px 3px 3px #7971ea;
+    font-size: 24px;
+    margin-bottom: 150px;
+
+}
+
+
+body { 
+    /* background-color: #232223 */
+    background: #06beb6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #48b1bf, #06beb6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #48b1bf, #06beb6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+.completed { 
+    text-decoration: line-through;
+    color: grey;
+}
+
+ul { 
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+li { 
+    background: #fff;
+    font-size: 1.5rem;
+    font-family: 'Blinker', sans-serif;
+    line-height: 40px;
+    font-weight: 200;
+    margin-top: 0px;
+}
+li:nth-child(2n) { 
+    background: #eeeeee;
+}
+
+#title { 
+    color: white; 
+    background-color: #393e46;
+    display: block;
+    font-weight: 400;
+    margin: 0px ;
+    padding: 0.3rem;
+    font-family: 'Blinker', sans-serif;
+    text-align: center;
+
+}
+#newtdoinput { 
+    margin: 0;
+    font-size: 18px;
+    background: #eeeeee;
+    width: 100%;
+    padding: 13px 13px 13px 20px;
+    color: #7971ea;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+input:focus { 
+    color: #fff;
+    border: #7971ea 2px solid; 
+    outline: none;
+}
+
+
+.fa-plus { 
+    float:right;
+    
+}
+
+span {
+    text-align: center;
+    color: white;
+height: 40px;
+   opacity: 0;
+   text-align: center;
+   margin-top: 0px
+}
+
+
+
+li:hover span { 
+    height: 100%;
+    transition: linear 0.2s;
+    width: 40px;
+    background-color:#e74c3c;
+    opacity: 1;
+    margin-right: 20px; 
+    padding: 5px;
+
+}
+
